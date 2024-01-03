@@ -142,3 +142,55 @@ body {
 	font-size: x-large;
 	text-align: end;
 }
+
+/* Sign Up */
+
+.signUp .blueBox {
+	margin: 15vh 10vw;
+	padding: 10vh 10vw;
+	background-color: #3882F6;
+	
+	display: flex;
+	justify-content: space-between;
+	
+	color: white;
+}
+
+.signUp .blueBox .text .textHeader {
+	font-weight: 750;
+	font-size: 24px;
+}
+
+.signUp .blueBox .text .paragraph {
+	font-size: large;
+}
+
+.signUp .blueBox button {
+	background-color: #3882F6;
+	color: inherit;
+	border: white solid 2px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: large;
+	align-self: center;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1ch;
+	
+	background-color: #1f2937;
+	color: white;
+	
+	height: 15vh;
+}
+
+#heart {
+	color: tomato;
+	font-size: x-large;
+}
